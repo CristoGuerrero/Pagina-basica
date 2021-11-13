@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de pedido</title>
+      <link rel= "icon" href= "favicon.ico" type= "image/png";> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel= "stylesheet" href= "./style1pag.css" type="text/css">
+    <title> formulario pagina basica </title>
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="pagina-basica.html"><b>FrutiTastic</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       
+        <ul class="navbar-nav">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="pagmision.html">Misión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="precios.html">Precios</a>
+          </li>
+          </ul>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+                  </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pagmision.html">Misión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="precios.html">Precios</a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+</head>
+
+<body>
+    <form action="https://reqres.in/api/users" method="POST">
+
+        
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div class="row g-3">
+                <div class="col-4">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col-4">
+                  <input type="text" class="form-control" placeholder="Apellidos" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" placeholder="Dirección" aria-label="City">
+                </div>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" placeholder="Ciudad" aria-label="State">
+                </div>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="Código Postal" aria-label="Código postal">
+                </div>
+              </div>
+
+            <br/>
+            <br/>
+            <fieldset>
+            
+                <legend> Selección de combos</legend>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Combo Tropical
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Combo Nórdico
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Combo Mediterráneo
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Combo Mixto
+                </label>
+              </div>
+              <br/>
+             
+              <div class="input-group">
+                <span class="input-group-text">En caso de Combo Mixto<br/> indicar Frutas:
+                </span>
+                <textarea class="form-control; width: 500px" aria-label="With textarea" ></textarea>
+              </div>
+              
+               
+              
+</fieldset>
+
+        </fieldset>
+       <br/>
+        <button type="submit">
+            Solicitud de envío
+        </button>
+    </form>
+    <br>
+   <footer>
+     <ul style= "position: absolute; left:10px">
+<li> <b><p>CONTACTANOS</p></b> </li>
+<li><p>tlf: 555 555 555</p></li>
+<li><p>correo: SAC@frutix.com</p></li>
+     </ul>
+      <img style= "border-radius: 20px; position:absolute; right:10px"
+        src="https://www.masservice.es/wp-content/uploads/2017/03/Fruta-fresca-en-la-oficina-la-manera-mas-sana-de-cuidar-la-alimentacion-de-tus-trabajadores-1.jpg" class="img-fluid"
+        alt="frutascierre"
+        width="300"/>
+    </footer>
+</body>
+
+</html>
